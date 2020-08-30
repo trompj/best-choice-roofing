@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/a88b731ad6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style/style.css" type="text/css">
+    <script src="Scripts/navScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<header id="headerBar">
+    <div id="left-header">
+        <a id="logo" href="index.html">
+            <img src="Images/BCRP_WHITE.png" alt="Personal Logo" class="icons" border="0">
+        </a>
+    </div>
+    <div id="right-header">
+        <nav id="menu">
+            <a href="services.html">Services</a>
+            <a href="meet.html">Meet the team</a>
+            <a href="quote.html">Quote</a>
+        </nav>
+    </div>
+
+    <div id="hamburger-icon">
+        <a onclick="hamburgerMenuFunction()">
+            <i class="fas fa-bars" style="color: white;"></i>
+        </a>
+    </div>
+
+    <div id="icon-header">
+        <a href="mailto:example@email.com" target="_blank" class="icon">
+            <i class="fas fa-envelope" style="color: white"></i>
+        </a>
+        <a href="https://www.facebook.com/bestchoicerandg" target="_blank" id="linked-in" class="icon">
+            <i class="fab fa-facebook" style="color: white"></i>
+        </a>
+    </div>
+</header>
+
+<div class="hamburger-menu" id="hamburger-menu">
+    <a href="services.html" class="hamburger">Services</a>
+    <a href="meet.html" class="hamburger">Meet the team</a>
+    <a href="quote.html" class="hamburger">Quote</a>
+</div>
+
+<section id="main-div" class="section">
+    <div class="wrap-container">
+        <div id="img-container" style="order: 1;">
+            <h2 style="color: black; padding-bottom: 10px;">Best Choice Roofing and Gutters</h2>
+
+            <img src="Images/Home_Composite.jpg" alt="Roof Image" class="image" id="main-img" border="0">
+
+            <div id="short-intro">
+                <h3 style="color: black;">Who are we.</h3>
+                <p>
+                    We are a Whatcom County based roofing company that strives for quality roofing and gutter installment. Unlike
+                    other companies, we strictly hand nail our products in place, allowing for a higher quality finish with greater
+                    durability.
+                </p>
+                <br>
+            </div>
+
+            <div class="address-contact">
+                <div id="address">
+                    <h4>Address</h4>
+                    <ul>
+                        <li style="color: orange; list-style-type: none;">Best Choice Roofing and Gutter</li>
+                        <li style="color: orange; list-style-type: none;">1810 Pine Circle</li>
+                        <li style="color: orange; list-style-type: none;">Lynden, WA 98264</li>
+                    </ul>
+                </div>
+
+                <div id="contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li style="color: orange; list-style-type: none;">Juan Lopez
+                            <br>
+                            <a href="tel:+1-360-296-4739">(360) 296-4739</a>
+                        </li>
+                        <li style="color: orange; list-style-type: none;">Hector Cruz
+                            <br>
+                            <a href="tel:+1-360-739-2841">(360) 739-2841</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

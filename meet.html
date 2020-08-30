@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meet the team</title>
+    <script src="https://kit.fontawesome.com/a88b731ad6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style/style.css" type="text/css">
+    <script src="Scripts/navScript.js"></script>
+</head>
+<body>
+<header id="headerBar">
+    <div id="left-header">
+        <a id="logo" href="index.html">
+            <img src="Images/BCRP_WHITE.png" alt="Personal Logo" class="icons" border="0">
+        </a>
+    </div>
+    <div id="right-header">
+        <nav id="menu">
+            <a href="services.html">Services</a>
+            <a href="meet.html" style="color: orange;">Meet the team</a>
+            <a href="quote.html">Quote</a>
+        </nav>
+    </div>
+
+    <div id="hamburger-icon">
+        <a onclick="hamburgerMenuFunction()">
+            <i class="fas fa-bars" style="color: white;"></i>
+        </a>
+    </div>
+
+    <div id="icon-header">
+        <a href="mailto:example@email.com" target="_blank" class="icon">
+            <i class="fas fa-envelope" style="color: white"></i>
+        </a>
+        <a href="https://www.facebook.com/bestchoicerandg" target="_blank" id="linked-in" class="icon">
+            <i class="fab fa-facebook" style="color: white"></i>
+        </a>
+    </div>
+</header>
+
+<div class="hamburger-menu" id="hamburger-menu">
+    <a href="services.html" class="hamburger">Services</a>
+    <a href="meet.html" class="hamburger">Meet the team</a>
+    <a href="quote.html" class="hamburger">Quote</a>
+</div>
+
+<section id="about-intro" class="section">
+    <div class="wrap-container">
+        <h2 style="color:black">Owners of Best Choice Roofing and Gutters</h2>
+        <div class=owner-images>
+            <div id="juan-img">
+                <img src="Images/Juan_Lopez.jpg" alt="Juan Lopez" id="juan-headshot-image">
+                <h3 style="text-align: center; color:black;">Juan Lopez</h3>
+            </div>
+            <div id="hector-img">
+                <img src="Images/Hector_Cruz.jpg" alt="Hector Cruz" id="hector-headshot-image">
+                <h3 style="text-align: center; color:black;">Hector Cruz</h3>
+            </div>
+        </div>
+
+        <div class="owner-images">
+            <p>
+                We have served and worked in the construction industry over 40 yrs combined and have managed a
+                wide range of projects from residential, commercial, churches, schools, apartment buildings, and much more.
+                We specialize in residential/commercial roofing and gutter services.
+            </p>
+        </div>
+
+        <div class="owner-images">
+            <img src="Images/All_Crew.jpg" alt="Our Crew" id="crew-image">
+        </div>
+        <h3 style="text-align: center; color:black;">Our Crew</h3>
+
+
+        <!--<div id="intro-body">-->
+            <!--<h1>About us</h1>-->
+            <!--<p>-->
+                <!--We have served and worked in the construction industry for over 40 yrs combined. We have-->
+                <!--managed a wide range of projects from residential, commercial, churches, schools, apartment buildings,-->
+                <!--and much more. We specialize in residential/commercial roofing and gutter services.-->
+            <!--</p>-->
+        <!--</div>-->
+    </div>
+</section>
+
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId            : '698540010696222',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v7.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+</body>
+</html>
