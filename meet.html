@@ -50,11 +50,11 @@
         <h2 style="color:black">Owners of Best Choice Roofing and Gutters</h2>
         <div class=owner-images>
             <div id="juan-img">
-                <img src="Images/Juan_Lopez.jpg" alt="Juan Lopez" id="juan-headshot-image">
+                <img src="Images/Juan_Lopez.jpg" alt="Juan Lopez">
                 <h3 style="text-align: center; color:black;">Juan Lopez</h3>
             </div>
             <div id="hector-img">
-                <img src="Images/Hector_Cruz.jpg" alt="Hector Cruz" id="hector-headshot-image">
+                <img src="Images/Hector_Cruz.jpg" alt="Hector Cruz">
                 <h3 style="text-align: center; color:black;">Hector Cruz</h3>
             </div>
         </div>
@@ -68,7 +68,9 @@
         </div>
 
         <div class="owner-images">
-            <img src="Images/All_Crew.jpg" alt="Our Crew" id="crew-image">
+            <div id="crew-image">
+                <img src="Images/All_Crew.jpg" alt="Our Crew">
+            </div>
         </div>
         <h3 style="text-align: center; color:black;">Our Crew</h3>
 
@@ -83,26 +85,6 @@
         <!--</div>-->
     </div>
 </section>
-
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId            : '698540010696222',
-            autoLogAppEvents : true,
-            xfbml            : true,
-            version          : 'v7.0'
-        });
-    };
-
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
 
 </body>
 </html>
